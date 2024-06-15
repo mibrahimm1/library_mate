@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane fx:id="loginMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cargologix.library_mate.controllers.Login_Controller">
+   <children>
+      <AnchorPane fx:id="registerView" layoutX="10.0" layoutY="10.0" prefHeight="400.0" prefWidth="470.0" visible="false">
+         <children>
+            <ImageView fitHeight="76.0" fitWidth="398.0" layoutX="43.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/app-logo_2@2x.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="usernameR" layoutX="50.0" layoutY="149.0" prefHeight="30.0" prefWidth="471.0" promptText="Username" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+            <PasswordField fx:id="passwordR" layoutX="50.0" layoutY="202.0" prefHeight="30.0" prefWidth="371.0" promptText="Password" />
+            <Button layoutX="96.0" layoutY="568.0" mnemonicParsing="false" onAction="#register" prefHeight="39.0" prefWidth="120.0" styleClass="renew_btn" stylesheets="@css/main_window.css" text="Register" />
+            <Button fx:id="cancelBtn1" layoutX="256.0" layoutY="568.0" mnemonicParsing="false" onAction="#cancel" prefHeight="39.0" prefWidth="120.0" styleClass="submit_btn" stylesheets="@css/main_window.css" text="Cancel" />
+            <PasswordField fx:id="confirmPassR" layoutX="50.0" layoutY="255.0" prefHeight="30.0" prefWidth="371.0" promptText="Confirm Password" />
+            <Label layoutX="50.0" layoutY="525.0" text="Already have an Account?" />
+            <Hyperlink layoutX="187.0" layoutY="522.0" onAction="#switchToLogin" text="Login " />
+            <TextField fx:id="nameR" layoutX="50.0" layoutY="306.0" prefHeight="30.0" prefWidth="371.0" promptText="Name" />
+            <TextField fx:id="memberidR" layoutX="50.0" layoutY="354.0" prefHeight="30.0" prefWidth="371.0" promptText="MemberID" />
+            <TextField fx:id="phonenumR" layoutX="50.0" layoutY="407.0" prefHeight="30.0" prefWidth="371.0" promptText="Phone Number" />
+            <TextField fx:id="emailR" layoutX="50.0" layoutY="458.0" prefHeight="30.0" prefWidth="371.0" promptText="Email" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="loginView" prefHeight="400.0" prefWidth="484.0">
+         <children>
+            <ImageView fitHeight="76.0" fitWidth="398.0" layoutX="43.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/app-logo_2@2x.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="usernameL" layoutX="50.0" layoutY="201.0" prefHeight="30.0" prefWidth="471.0" promptText="Username" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+            <PasswordField fx:id="passwordL" layoutX="50.0" layoutY="284.0" prefHeight="30.0" prefWidth="371.0" promptText="Password" />
+            <Button fx:id="loginBtn" layoutX="96.0" layoutY="464.0" mnemonicParsing="false" onAction="#login" prefHeight="39.0" prefWidth="120.0" styleClass="renew_btn" stylesheets="@css/main_window.css" text="Login" />
+            <Button fx:id="cancelBtn" layoutX="256.0" layoutY="464.0" mnemonicParsing="false" onAction="#cancel" prefHeight="39.0" prefWidth="120.0" styleClass="submit_btn" stylesheets="@css/main_window.css" text="Cancel" />
+            <Label layoutX="50.0" layoutY="346.0" text="Have no Account?" />
+            <Hyperlink layoutX="146.0" layoutY="343.0" onAction="#switchToRegister" text="Register" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

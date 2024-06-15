@@ -1,0 +1,99 @@
+.rootPane{
+    -fx-font-family: "Microsoft JhengHei" ;
+    -fx-font-weight: bold ;
+}
+
+.borderPane{
+    -fx-font-family: "Microsoft JhengHei" ;
+}
+
+.tabPane {
+    -fx-background-radius: 30px ;
+    -fx-border-radius: 10 10 0 0;
+}
+
+.tabPane .tab-header-background{
+    -fx-background-color: #9AD8C0 ;
+
+}
+
+.tab {
+    -fx-background-radius: 10 10 0 0;
+    -fx-font-family: "Microsoft JhengHei" ;
+}
+
+
+.menuBar {
+    -fx-background-color: #9AD8C0 ;
+}
+
+.side-btn{
+    -fx-border-width: .4px ;
+    -fx-background-radius: 30px ;
+    -fx-background-color: #FFFF ;
+    -fx-cursor: hand ;
+    -fx-font-family: "Microsoft JhengHei" ;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold ;
+}
+.side-btn:hover {
+    -fx-background-color: #B3F4D8 ;
+}
+
+.side-bar {
+    -fx-background-color: #9AD8C0 ;
+}
+
+.tab_window {
+    -fx-background-radius: 30px ;
+    -fx-border-radius: 30 30 0 0;
+}
+
+.issue_btn{
+    -fx-background-color: #E55353 ;
+    -fx-border-width: .4px ;
+    -fx-background-radius: 30px ;
+    -fx-text-fill: #fff ;
+    -fx-cursor: hand ;
+    -fx-font-family: "Microsoft JhengHei" ;
+    -fx-font-weight: bold;
+}
+.issue_btn:hover{
+    -fx-background-color: #E58585 ;
+    -fx-text-fill: #fff ;
+}
+
+.submit_btn {
+    -fx-background-color: #E55353 ;
+    -fx-border-width: .4px ;
+    -fx-background-radius: 30px ;
+    -fx-text-fill: #fff ;
+    -fx-cursor: hand ;
+    -fx-font-family: "Microsoft JhengHei" ;
+    -fx-font-weight: bold;
+}
+
+.submit_btn:hover {
+    -fx-background-color: #E58585 ;
+    -fx-text-fill: #fff ;
+}
+
+.renew_btn{
+    -fx-background-color: #24B682 ;
+    -fx-border-width: .4px ;
+    -fx-background-radius: 30px ;
+    -fx-text-fill: #fff ;
+    -fx-cursor: hand ;
+    -fx-font-family: "Microsoft JhengHei" ;
+    -fx-font-weight: bold;
+}
+.renew_btn:hover{
+    -fx-background-color: #6BB599 ;
+    -fx-text-fill: #fff ;
+
+}
+
+.info_box {
+    -fx-background-color: #A8E8EF ;
+    -fx-background-radius: 30px ;
+}

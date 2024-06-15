@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Jun 09 00:48:52 PKT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.17.1.0 - (1913217): instance a816c00e-018f-f965-8805-00000d4adb08 
+on database directory D:\Object Oriented Programming Project\Library_Mate\data with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2b05039f 
+Loaded from file:/D:/Object%20Oriented%20Programming%20Project/Library_Mate/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=21.0.3+7-LTS-152
+user.dir=D:\Object Oriented Programming Project\Library_Mate
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

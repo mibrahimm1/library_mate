@@ -1,0 +1,22 @@
+.table-view {
+    -fx-background-color: transparent;
+    -fx-font-family: "Microsoft JhengHei" ;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+}
+
+.table-view .corner {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: #A8E8EF;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 0 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="rootPane" maxHeight="330.0" maxWidth="600.0" minHeight="330.0" minWidth="600.0" prefHeight="330.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.cargologix.library_mate.controllers.Add_Book_Controller">
+   <children>
+      <AnchorPane fx:id="mainContainer" maxHeight="330.0" maxWidth="600.0" minHeight="330.0" minWidth="600.0" prefHeight="330.0" prefWidth="600.0" styleClass="main_bg" stylesheets="@css/add_book.css">
+         <children>
+            <Label layoutX="240.0" layoutY="30.0" text="Add New Book">
+               <font>
+                  <Font name="Microsoft JhengHei" size="17.0" />
+               </font>
+            </Label>
+            <Button fx:id="saveBtn" layoutX="126.0" layoutY="264.0" mnemonicParsing="false" onAction="#addBook" prefHeight="31.0" prefWidth="114.0" styleClass="save_btn" stylesheets="@css/add_book.css" text="Save" textFill="WHITE">
+               <font>
+                  <Font name="Microsoft JhengHei Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancelBtn" layoutX="360.0" layoutY="264.0" mnemonicParsing="false" onAction="#cancel" prefHeight="31.0" prefWidth="114.0" styleClass="cancel_btn" stylesheets="@css/add_book.css" text="Cancel" textAlignment="RIGHT">
+               <font>
+                  <Font name="Microsoft JhengHei UI" size="12.0" />
+               </font>
+            </Button>
+            <VBox fx:id="add_book_Form" layoutY="55.0" prefHeight="180.0" prefWidth="600.0" AnchorPane.bottomAnchor="165.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="55.0">
+               <children>
+                  <TextField fx:id="title" promptText="Book Name" styleClass="text_field" stylesheets="@css/add_book.css">
+                     <VBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Microsoft JhengHei UI Light" size="12.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="id" layoutX="30.0" layoutY="30.0" promptText="Book ID" styleClass="text_field" stylesheets="@css/add_book.css">
+                     <font>
+                        <Font name="Microsoft JhengHei UI Light" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="author" layoutX="10.0" layoutY="53.0" promptText="Book Author" styleClass="text_field" stylesheets="@css/add_book.css">
+                     <font>
+                        <Font name="Microsoft JhengHei UI Light" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="publisher" layoutX="10.0" layoutY="76.0" promptText="Publisher" styleClass="text_field" stylesheets="@css/add_book.css">
+                     <font>
+                        <Font name="Microsoft JhengHei UI Light" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
